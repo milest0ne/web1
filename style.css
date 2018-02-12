@@ -1,0 +1,27 @@
+body {
+  margin:0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+h1 {
+  font-size: 45px;
+  text-align: center;
+  border-bottom: gray 2px solid;
+  margin:0;
+  padding:15px;
+}
+#grid {
+  display:grid;
+  grid-template-columns: 150px 1fr;
+}
+#grid #navigator {
+  border-right: gray 2px solid;
+}
+#grid #article {
+  padding: 15px;
+}
+#article h2 {
+  margin-top:0;
+}
